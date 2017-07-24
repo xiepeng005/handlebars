@@ -1,0 +1,40 @@
+<header>
+    <div class="header-top">
+        <div class="main f-clear">
+            <div class="fl">
+                欢迎来到小豹！
+                <span class="my-icon my-icon-phone"></span>服务热线：400-8533-775
+            </div>
+            <div class="fr">
+                <ul class="header-top-nav">
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">软件下载</a></li>
+                    {{#if isLogin}}
+                        <li><a href="/user/index" class="log">欢迎你：{{username}}</a>|<a href="/home/logout" class="reg">退出登录</a></li>
+                        {{else}}
+                        <li><a href="/home/login" class="log">登录</a>|<a href="/home/reg" class="reg">注册</a></li>
+                    {{/if}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="main f-clear">
+            <div class="logo fl">
+                <img src="/images/logo.png" title="小豹网" alt="小豹网"/>
+                <img class="slogan" src="/images/slogan.png" title="专注金融市场，为盈利而生"/>
+            </div>
+            <nav class="header-nav fr">
+                <ul>
+                    <li><a class="now" href="/">首页</a></li>
+                    <li><a href="#">小豹看财经</a></li>
+                    <li><a href="#">太极系统</a></li>
+                    <li><a href="#">金融学院</a></li>
+                    <li><a href="#">合伙投资</a></li>
+                    <li><a href="#">安全保障</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

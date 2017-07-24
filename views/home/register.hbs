@@ -1,0 +1,70 @@
+{{css "/css/user.css"}}
+{{js "/js/jquery-1.11.2.min.js"}}
+{{js "/js/main.js"}}
+{{js "/js/layer/layer.js"}}
+{{js "/js/login.js"}}
+<div class="mn-main pb0" style="background: #d1f2fb;">
+    <div class="w1001">
+        <div class="bd-13">
+            <div class="bd-13-c f-clear">
+
+                <div class="form show fl">
+                    <form id="form1" method="post" onsubmit="return false;" url="/tools/user_ajax.ashx?act=reg">
+                        <dl>
+                            <dt>
+                                <label>手机号码：</label></dt>
+                            <dd>
+                                <input type="text" id="mobile" name="mobile" style="width: 160px" class="inp" />
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <label>设置密码：</label></dt>
+                            <dd>
+                                <input type="password" style="width: 160px" id="pwd" name="pwd" class="inp" />
+                                <span>密码长度6~24位</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <label>确认密码：</label></dt>
+                            <dd>
+                                <input type="password" style="width: 160px" id="pwd2" name="pwd2" class="inp" />
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <label>验证码：</label></dt>
+                            <dd>
+                                <input type="text" id="code2" name="code2" style="width: 160px" class="inp" />
+                                <img src="/admin/ValidateCode" id="vCodeImg" alt="验证码" height="32" title="点击切换验证码" onclick="ToggleCode(this, '/admin/ValidateCode');return false;" style="position: relative; top: 0px;" />
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <label>手机验证码：</label></dt>
+                            <dd>
+                                <input type="text" name="code_mobile" id="code_mobile" style="width: 160px" class="inp" />
+                                <input type="button" id="btnOnece" value=" 获取手机验证码 " onclick="reg_sms();" style="background-color: #ddd; height: 38px; border-radius: 5px; padding: 0 10px;" />
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <label>推荐人手机：</label></dt>
+                            <dd>
+                                <input type="text" id="ref_mobile" name="ref_mobile"  value=""  style="width: 160px" class="inp" placeholder="没有推荐人请留空" />
+                            </dd>
+                        </dl>
+                        <div class="btn-box">
+                            <p>
+                                <input type="checkbox" name="agree" id="agree" value="1" />同意并愿意遵守<a href="/home/protocol?call_index=protocol" target="_blank">小豹集团《用户协议和隐私政策》</a>
+                            </p>
+                            <button type="submit" id="btnSubmit" class="btn" onclick="return reg();">立即注册</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="fr">已有账号？现在就 <a href="/home/login">登录</a></div>
+            </div>
+        </div>
+    </div>
+</div>

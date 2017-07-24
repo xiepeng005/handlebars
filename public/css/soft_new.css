@@ -1,0 +1,21 @@
+.soft-new-banner{background:url(../images/soft_new/soft_new_bg.jpg) center no-repeat; height: 822px; width: 100%;}
+.soft-new-top{position: relative; background: #742add; padding-bottom: 50px;}
+.soft-new-main{width: 1000px; margin: 0 auto;}
+.soft-new-top-des{background: url(../images/soft_new_topbg.png) right center no-repeat; padding-right: 500px;}
+.soft-new-top .title{color: #fedf08; font-size: 24px; font-weight: bold; margin-bottom: 20px;}
+.soft-new-top-des p{font-size: 16px; line-height: 26px; text-indent: 2em; color: #fff;}
+.soft-new-top-des p + h3{margin-top: 20px;}
+.soft-new-deal{margin-top: 20px; position: relative;}
+.soft-new-deal h3{position: absolute; top:0; left: 0;}
+.soft-new-deal .deal-img{background: url(../images/soft_new/soft_new_deal.png) center no-repeat; height: 368px;}
+.soft-new-profit{background: url(../images/soft_new/macbook.png) left center no-repeat; padding-left: 600px;}
+.soft-new-profit .title{margin-bottom: 10px;}
+.soft-new-profit p{color: #fff; line-height: 32px; font-size: 16px;}
+.soft-new-profit p strong{font-size: 20px;}
+.soft-new-profit .point{margin-top: 10px;}
+.soft-new-profit .point p{line-height: 26px;}
+.soft-new-plot{padding: 75px 0; background: #fbefd9;}
+.soft-new-plot .title{font-size: 45px; color: #c55d00; font-weight: bold; text-align: center;}
+.soft-new-plot .info{background: url(../images/soft_new/soft_new_plot.png) center no-repeat; height: 473px;}
+.soft-new-plot .info p{text-indent: 2em; color: #777777; font-size: 16px; line-height: 30px; width: 460px; padding:50px 0 0 100px;}
+.soft-new-plot .btn{ width: 325px; height: 56px; line-height: 56px; border-radius: 28px; background: #c55d00; font-size: 28px; color: #fff; border: 0; margin: 0 auto; display: block;}

@@ -1,0 +1,57 @@
+.soft-banner{background: url(../images/soft/soft_banner.jpg) center no-repeat; height: 350px; width: 100%;}
+.soft h1{font-size: 30px;}
+.soft h2{font-size: 24px;}
+.soft h3{font-size: 18px;}
+.soft-nav{margin-top: 72px; background: #eeeeee; height: 42px;}
+.soft-nav li{float: left; height: 42px; line-height: 42px; width: 20%; text-align: center; font-size: 20px; cursor: pointer;}
+.soft-nav li.now,.soft-nav li:hover{background: #707070; color: #fff;}
+.soft-summary{background: url(../images/soft/soft_summary.png)right center no-repeat; width: 630px; padding-right: 520px;}
+.soft-summary h2{padding: 50px 0 30px;}
+.soft-summary h3{padding-top: 30px;}
+.soft-summary p{line-height: 28px;}
+.soft-dealer{background: #f8f8f8; box-shadow: 0px 2px 3px #ddd; margin: 50px 0; padding: 60px 20px;}
+.soft-dealer h3{font-size: 20px; text-align: center; padding-top: 25px;}
+.soft-dealer .soft-dealer-list{width: 460px;}
+.soft-dealer .soft-dealer-list a{height: 44px; line-height: 44px; width: 144px; text-align: center; margin: 35px 13px 0 0; display: block; float: left; text-align: center; color: #fff; background: #e60012;}
+.soft-dealer .soft-dealer-list a:nth-child(3n){margin-right: 0;}
+.soft-test-chart .tit{background: url(../images/soft/soft_test_chart_tit.jpg) center no-repeat; height: 75px; line-height: 75px; padding: 0 20px; font-size: 24px; color: #fff;}
+.soft-test-chart .img{margin: 60px 0 30px;}
+.soft-test-chart .img img{margin: 0 auto; display: block;}
+.soft-test-chart p{text-align: center; font-size: 16px; padding-bottom: 40px;}
+.soft-intro-m{margin-top: 50px;}
+.soft-intro-m h2{padding-bottom: 30px;}
+.soft-intro-m p{font-size: 18px; line-height: 42px;}
+.soft-intro-m .fr{text-align: center;}
+.soft-intro-m .fr img{display: block; margin-bottom: 40px;}
+.soft-intro-m .fr a{display: inline-block; text-align: center; background: #9226e0; width: 185px; height: 60px; line-height: 60px; 
+font-size: 24px; color: #fff; border-radius: 8px; box-shadow: inset 1px 2px 5px #555;}
+.soft-intro-m .fr a.a2{background: #5000a1; margin-left: 20px;}
+.soft-intro .p{text-indent: 2em; font-size: 16px; line-height: 39px; letter-spacing: 1px;}
+.soft-ensure{background: #f8f8f8; box-shadow: 0px 2px 3px #ddd; margin: 50px 0; padding: 60px 20px;}
+.soft-ensure-m{width: 720px;}
+.soft-ensure-m h2{text-align: center; padding-bottom: 40px; padding-top: 20px;}
+.soft-ensure-m h3{padding-top: 50px;}
+.soft-ensure-m p{text-indent: 2em; font-size: 16px; line-height: 40px;}
+.soft-ensure-law{background: none; box-shadow: none; padding: 30px 0; margin: 0;}
+.soft-ensure-law .soft-ensure-m{width: 620px;}
+.soft-advant-tab{border: 1px solid #e5e5e5; padding: 35px 20px; margin-bottom: 50px;}
+.soft-advant-tab p{font-size: 16px; line-height: 39px; text-indent: 2em;}
+.soft-advant-tab1 h1{margin-bottom: 20px;}
+.soft-advant-tab1 h3{padding-bottom: 20px;}
+.soft-advant-tab2 h1{text-align: center; padding-bottom: 30px;}
+.soft-advant-tab2 img{margin: 0 auto; display: block;}
+.soft-advant-tab3 h2{font-size: 25px; padding-bottom: 20px;}
+.soft-advant-tab3 p{line-height: 49px; color: #666;}
+.soft-advant-tab3 img{display: block; margin: 30px auto 0;}
+.soft-advant-tab4{background: url(../images/soft/soft_advant_tab4.jpg) no-repeat; background-size: cover; padding-left: 35px; padding-right: 35px; border: 0;}
+.soft-advant-tab4 h3{line-height: 40px;}
+.soft-advant-tab4 .mt{margin-top: 30px;}
+.soft-advant-tab4 .td{text-indent: 2em;}
+.soft-record{border:2px solid #e5e5e5; padding: 60px 0;}
+.soft-record-list li{float: left; width: 25%; text-align: center; font-size: 16px; line-height: 36px;}
+.soft-record-list li .soft-user{width: 172px; height: 172px; line-height: 172px; display: block; border-radius: 172px; overflow: hidden; margin: 0 auto 25px;}
+.soft-record-count{text-align: center; height: 60px; line-height: 60px; background: #f8f8f8; border-top:2px solid #e5e5e5; border-bottom: 2px solid #e5e5e5; font-size: 16px; margin: 60px 0;}
+.soft-record-img img{display: block; margin: 0 auto;}
+.soft-certify{padding: 60px 0;}
+.soft-certify .en,.soft-certify .ch{font-size: 40px; line-height: 62px; text-align: center;}
+.soft-certify .img img{margin: 50px auto 0; display: block;}

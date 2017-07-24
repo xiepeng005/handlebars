@@ -1,0 +1,535 @@
+{{css "/css/index.css"}}
+{{js "/js/jquery-1.11.2.min.js"}}
+{{js "/js/main.js"}}
+{{js "/js/jquery.SuperSlide.2.1.1.js"}}
+{{js "/js/index.js"}}
+<main>
+    <div class="banner-slider">
+        <!--轮播图片-->
+        <div class="big-banner" id="slide-fade">
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <div class="bd f_clear">
+                <ul>
+                    {{#each banners}}
+                        <li>
+                            <img class="aligncenter" src="{{this.src}}" alt="{{this.title}}"/>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+        <div class="banner-main">
+            <!--左侧导航-->
+            <div class="banner-pro-con">
+                <ul class="banner-nav">
+                    <li class="">
+                        <h3>太极1号</h3>
+                        <p>金融科技，智能交易软件</p>
+                    </li>
+                    <li class="">
+                        <h3>入伙发财</h3>
+                        <p>多种类型产品，获取预期收益</p>
+                    </li>
+                    <li class="">
+                        <h3>心安理财</h3>
+                        <p>年化收益：12%—18%</p>
+                    </li>
+                    <li class="">
+                        <h3>我要配资 </h3>
+                        <p>股票配资  放大5倍  超低利率</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="main f-clear index-videos" id="index_videos">
+            <div class="fl video">
+                <!--<video><img src="/images/video.jpg"/></video>-->
+                <img src="/images/index_video_bg.jpg"/>
+                <div class="video-tip-mask"></div>
+                <div class="video-tip">
+                    <h2>&nbsp;</h2>
+                    <a href="#" class="my-icon my-icon-play"></a>
+                </div>
+            </div>
+            <div class="fr new-video-list">
+                <ul>
+                    <li class="on" data-img="/images/index_video_bg.jpg?id=1" data-href="/images/index_video_bg.jpg?id=1">
+                        <i class="arrow"></i>
+                        <a href="#">
+                            <h3>【小豹看财经】第五期   钱去哪了？</h3>
+                            <div class="con">
+                                <div class="fl">内容摘要内容摘要内容摘要内容摘要......</div>
+                                <span class="fr time">2017-4-17</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-img="/images/index_video_bg.jpg?id=2" data-href="/images/index_video_bg.jpg?id=2">
+                        <i class="arrow"></i>
+                        <a href="#">
+                            <h3>【小豹看财经】第五期   钱去哪了？</h3>
+                            <div class="con">
+                                <div class="fl">内容摘要内容摘要内容摘要内容摘要......</div>
+                                <span class="fr time">2017-4-17</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-img="/images/index_video_bg.jpg?id=3" data-href="/images/index_video_bg.jpg?id=3">
+                        <i class="arrow"></i>
+                        <a href="#">
+                            <h3>【小豹看财经】第五期   钱去哪了？</h3>
+                            <div class="con">
+                                <div class="fl">内容摘要内容摘要内容摘要内容摘要......</div>
+                                <span class="fr time">2017-4-17</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-img="/images/index_video_bg.jpg?id=4" data-href="/images/index_video_bg.jpg?id=4">
+                        <i class="arrow"></i>
+                        <a href="#">
+                            <h3>【小豹看财经】第五期   钱去哪了？</h3>
+                            <div class="con">
+                                <div class="fl">内容摘要内容摘要内容摘要内容摘要......</div>
+                                <span class="fr time">2017-4-17</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-img="/images/index_video_bg.jpg?id=5" data-href="/images/index_video_bg.jpg?id=5">
+                        <i class="arrow"></i>
+                        <a href="#">
+                            <h3>【小豹看财经】第五期   钱去哪了？</h3>
+                            <div class="con">
+                                <div class="fl">内容摘要内容摘要内容摘要内容摘要......</div>
+                                <span class="fr time">2017-4-17</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="news main f-clear">
+            <div class="news-left fl">
+                <div class="news-tit f-clear">
+                    <h2 class="fl">投研报告</h2>
+                    <a href="#" class="more fr">更多>></a>
+                </div>
+                <ul class="news-list">
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="news-right fr">
+                <div class="news-tit f-clear">
+                    <h2 class="fl">金融学院</h2>
+                    <a href="#" class="more fr">更多>></a>
+                </div>
+                <ul class="news-list fl">
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                    <li>
+                        <div class="news-list-tit f-clear">
+                            <h3 class="fl"><a herf="#">跨年之波段战法 3号</a></h3>
+                            <span class="fr">2017-01-02</span>
+                        </div>
+                        <p>本专栏主要以稳健投资，追求复利为核心。以中小周期为波段，力求灵动，敏捷。</p>
+                    </li>
+                </ul>
+                <ul class="news-video-list fr">
+                    <li>
+                        <div class="video">
+                            <!--<video><img src="/images/video.jpg"/></video>-->
+                            <img src="/images/video.jpg"/>
+                            <div class="video-tip-mask"></div>
+                            <div class="video-tip">
+                                <h2>解盘视频</h2>
+                                <a href="#" class="my-icon my-icon-play"></a>
+                            </div>
+                        </div>
+                        <p>量缩至极必有反扑</p>
+                    </li>
+                    <li>
+                        <div class="video">
+                            <!--<video><img src="/images/video.jpg"/></video>-->
+                            <img src="/images/video.jpg"/>
+                            <div class="video-tip-mask"></div>
+                            <div class="video-tip">
+                                <h2>解盘视频</h2>
+                                <a href="#" class="my-icon my-icon-play"></a>
+                            </div>
+                        </div>
+                        <p>量缩至极必有反扑</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section deal-soft">
+        <div class="main">
+            <div class="deal-soft-tit">
+                <img src="/images/deal_soft_tit.png"/>
+                <p>是一款太极思维结合人工智能的交易产品</p>
+            </div>
+            <div class="deal-soft-main f-clear">
+                <div class="deal-soft-left fl">
+                    <div class="new-tit">太极思维与人工智能的结合<div class="line"></div></div>
+                    <div class="des"> 化名“Marster”的阿尔法狗在网络上连续打败60个围棋高手，包括聂卫平只要能算法化和流程化的规则就可以交给人工智能电脑系统来计算如果交给任何交易大师，让他检查一遍60个交易品种的6个时间级别的趋势研判支撑阻力位、反转位、入场点位、波幅计算假设每个3分钟，那分析一遍的时间就是3分钟*6时间级别*60品种=18小时原来18小时的一遍分析，现只需要1分钟。</div>
+                    <strong>太极策略交易软件就是这样一款人工智能系统</strong>
+                </div>
+                <div class="deal-soft-right fr">
+                    <div class="deal-video-tit fl"><span>视频介绍</span></div>
+                    <div class="video fr">
+                        <!--<video><img src="/images/video.jpg"/></video>-->
+                        <img src="/images/deal_video.jpg"/>
+                        <div class="video-tip-mask"></div>
+                        <div class="video-tip">
+                            <a href="#" class="my-icon my-icon-play"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="deal-soft-des">
+            <p> 太极策略交易软件更能体现太极的阴阳两极，通过严谨的数学量化公式对商品走势进行周密的测算，使至软件将本身运行的规划作为主导，根据行情结构自定义某个高点和低点作为阴阳两极，从而在两极之间实施布局。</p>
+        </div>
+    </section>
+    <section class="section in-core">
+        <div class="main">
+            <div class="new-tit new-tit-1"><span class="br"></span>核心价值</div>
+            <div class="in-core-list f-clear">
+                <ul>
+                    <li><i class="ico ico1"></i>布局阶段</li>
+                    <li><i class="ico ico2"></i>安全阶段</li>
+                    <li><i class="ico ico3"></i>盈利阶段</li>
+                    <li><i class="ico ico4"></i>盈利倍增阶段</li>
+                </ul>
+            </div>
+            <div class="in-core-pro">
+                <div class="in-core-pro-tit f-clear">
+                    <div class="new-tit new-tit-1 fl">太极策略交易软件<div class="line"></div></div>
+                    <button type="button" class="my-btn my-btn-block fr">我要申请</button>
+                </div>
+                <div class="div-tab f-clear">
+                    <ul>
+                        <li class="div-tab-cell">
+                            <p>起投金额</p>
+                            <strong><em>10000</em>美金起</strong>
+                        </li>
+                        <li class="div-tab-cell">
+                            <p>投资方向</p>
+                            <strong>黄金/原油/指数</strong>
+                        </li>
+                        <li class="div-tab-cell">
+                            <p>投资策略</p>
+                            <strong>顺势＋震荡＋突破策略</strong>
+                        </li>
+                        <li class="div-tab-cell">
+                            <p>投资收益</p>
+                            <strong>月<em>5-15%+</em></strong>
+                        </li>
+                        <li class="div-tab-cell">
+                            <p>合作模式</p>
+                            <strong>保本型/非保本型</strong>
+                        </li>
+                        <li class="div-tab-cell">
+                            <p>合作期限</p>
+                            <strong>3/6/12个月</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="product main f-clear">
+            <div class="product-tit"><img src="/images/text_hhtz.png"/></div>
+            <div class="product-new-list">
+                <ul>
+                    <li>
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                    <li class="mid">
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                    <li class="last">
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product main mt50 f-clear">
+            <div class="product-tit"><img src="/images/text_rplc.png"/></div>
+            <div class="product-new-list">
+                <ul>
+                    <li>
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                    <li class="mid">
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                    <li class="last">
+                        <h3>太极策略</h3>
+                        <p class="rate c-red">25%~50%</p>
+                        <p>预期收益</p>
+                        <p class="mt">操作金额：<strong class="c-red">150</strong>万元 | 周期：<strong class="c-red">30</strong>天</p>
+                        <div class="percent f-clear">
+                            <div class="percent-bar fl"><span class="percent-m" style="width:88%"></span></div>
+                            <span class="fr">88%</span>
+                        </div>
+                        <button type="button" class="my-btn my-btn-red my-btn-block">我要申请</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="invest main">
+            <div class="text-title">
+                <img class="tit" src="/images/text_invest.png" alt="炒股跟投"/>
+                <img class="del" src="/images/text_invest_del.png" alt="跟随高手交易，擒拿牛股"/>
+            </div>
+            <div class="invest-list f-clear">
+                <ul>
+                    <li>
+                        <div class="invest-state">运<br/>行<br/>中</div>
+                        <div class="invest-percent">
+                            <strong class="c-red">14.<em>91%</em></strong>
+                            <span>当前收益</span>
+                        </div>
+                        <div class="invest-user">
+                            <p>服务周期<strong class="c-red">60</strong>天</p>
+                            <p class="f-clear">
+                                <span class="fl">常胜将军</span>
+                                <span class="fr">深圳新兰德</span>
+                            </p>
+                        </div>
+                        <button type="button" class="my-btn my-btn-yel-d my-btn-block">我要跟投</button>
+                    </li>
+                    <li class="mid">
+                        <div class="invest-state">运<br/>行<br/>中</div>
+                        <div class="invest-percent">
+                            <strong class="c-red">14.<em>91%</em></strong>
+                            <span>当前收益</span>
+                        </div>
+                        <div class="invest-user">
+                            <p>服务周期<strong class="c-red">60</strong>天</p>
+                            <p class="f-clear">
+                                <span class="fl">常胜将军</span>
+                                <span class="fr">深圳新兰德</span>
+                            </p>
+                        </div>
+                        <button type="button" class="my-btn my-btn-yel-d my-btn-block">我要跟投</button>
+                    </li>
+                    <li>
+                        <div class="invest-state">运<br/>行<br/>中</div>
+                        <div class="invest-percent">
+                            <strong class="c-red">14.<em>91%</em></strong>
+                            <span>当前收益</span>
+                        </div>
+                        <div class="invest-user">
+                            <p>服务周期<strong class="c-red">60</strong>天</p>
+                            <p class="f-clear">
+                                <span class="fl">常胜将军</span>
+                                <span class="fr">深圳新兰德</span>
+                            </p>
+                        </div>
+                        <button type="button" class="my-btn my-btn-yel-d my-btn-block">我要跟投</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="secur main">
+            <div class="text-title">
+                <img class="tit" src="/images/text_secur.png" alt="安全保障"/>
+                <img class="del" src="/images/text_secur_del.png" alt="投资者资金保障安全"/>
+            </div>
+            <div class="secur-list f-clear">
+                <ul>
+                    <li>
+                        <img src="/images/secur_01.jpg"/>
+                        <p>安全保障，机构保理</p>
+                    </li>
+                    <li>
+                        <img src="/images/secur_02.jpg"/>
+                        <p>国家版权局，营业执照</p>
+                    </li>
+                    <li>
+                        <img src="/images/secur_03.jpg"/>
+                        <p>最具价值策略软件奖</p>
+                    </li>
+                    <li class="last">
+                        <img src="/images/secur_04.jpg"/>
+                        <p>国家版权局，专利证书</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="news news-type2 main f-clear">
+            <div class="news-right fl">
+                <div class="news-tit f-clear">
+                    <h2 class="fl">行业资讯</h2>
+                    <a href="#" class="more fr">更多>></a>
+                </div>
+                <div class="news-list news-list2">
+                    <ul>
+                        <li class="f-clear">
+                            <div class="news-img"><img src="/images/news_img.jpg"/></div>
+                            <div class="news-detail">
+                                <div class="tit f-clear">
+                                    <a href="#" class="fl">2016还剩不到2天，你拿什么回家过年？</a>
+                                    <span class="fr">2016-12-29</span>
+                                </div>
+                                <p> 离春节只剩不到30天，1月份的工资就要贡献给一个伟大又烧钱的节日—春节，
+                                    该拿什么回家过年呢？现在你是不是只想要实实在在的幸福 . . .</p>
+                            </div>
+                        </li>
+                        <li class="f-clear">
+                            <div class="news-img"><img src="/images/news_img.jpg"/></div>
+                            <div class="news-detail">
+                                <div class="tit f-clear">
+                                    <a href="#" class="fl">2016还剩不到2天，你拿什么回家过年？</a>
+                                    <span class="fr">2016-12-29</span>
+                                </div>
+                                <p> 离春节只剩不到30天，1月份的工资就要贡献给一个伟大又烧钱的节日—春节，
+                                    该拿什么回家过年呢？现在你是不是只想要实实在在的幸福 . . .</p>
+                            </div>
+                        </li>
+                        <li class="f-clear">
+                            <div class="news-img"><img src="/images/news_img.jpg"/></div>
+                            <div class="news-detail">
+                                <div class="tit f-clear">
+                                    <a href="#" class="fl">2016还剩不到2天，你拿什么回家过年？</a>
+                                    <span class="fr">2016-12-29</span>
+                                </div>
+                                <p> 离春节只剩不到30天，1月份的工资就要贡献给一个伟大又烧钱的节日—春节，
+                                    该拿什么回家过年呢？现在你是不是只想要实实在在的幸福 . . .</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news-left fr">
+                <div class="news-tit f-clear">
+                    <h2 class="fl">平台公告</h2>
+                    <a href="#" class="more fr">更多>></a>
+                </div>
+                <div class="news-list news-list3">
+                    <ul>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">元旦节公司放假通知。</a>
+                            <span class="fr">2016-12-30</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

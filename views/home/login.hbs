@@ -1,0 +1,44 @@
+{{css "/css/user.css"}}
+{{js "/js/jquery-1.11.2.min.js"}}
+{{js "/js/main.js"}}
+{{js "/js/layer/layer.js"}}
+{{js "/js/login.js"}}
+<div class="mn-main pb0">
+    <div class="loginbox">
+        <div class="bd-12 clearfix">
+            <div class="bd-12-r">
+                <h3>
+                    <strong>用户登录</strong>
+                </h3>
+                <div class="form">
+                    <form id="form1" method="post" onsubmit="return false">
+                        <div class="item">
+                            <label>手机号码：</label>
+                            <div class="item-ifo">
+                                <input type="text" class="text bg-b" value="" autocomplete="off" tabindex="1" id="mobile" name="username" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <label>密码：</label>
+                            <div class="item-ifo">
+                                <input type="password" size="30" class="text bg-a" autocomplete="off" tabindex="2" id="pwd" name="password" />
+                            </div>
+                        </div>
+                        <div style="height: 32px;">
+                            <input type="checkbox" value="1" name="auto_login" id="autologin" class="f-check" checked="checked" />下次自动登录
+                        </div>
+                        <div class="btn-box">
+                            <input type="submit" value="登录" class="btn" id="btnSubmit" onclick="return login();" />
+                        </div>
+                        <p class="t-l">
+                            <a href="/home/reg" class="l">免费注册</a>
+                            <a href="/home/findpwd" class="r">忘记密码?</a>
+                        </p>
+                    </form>
+                    <div class="alifast">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

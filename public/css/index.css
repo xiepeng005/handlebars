@@ -1,0 +1,48 @@
+.index-intro li{float: left; width: 15%; background: url(../images/index/index_intro_bg.png) 30px 0 no-repeat; height: 67px; padding-left: 10%;}
+.index-intro li strong{font-size: 18px; line-height: 30px;}
+.index-intro li p{font-size: 12px; color: #525252;}
+.index-videos-list{margin-top: 50px;}
+.index-video-title{padding-bottom: 10px; border-bottom: 1px solid #c9c9c9; height: 30px; line-height: 30px;}
+.index-video-title span{font-size: 26px; color: #c89b48;}
+.index-video-title span em{font-weight: bold;}
+.index-video-title a{margin-top: 10px;}
+.index-videos-list ul{margin-top: 20px;}
+.index-videos-list li{width: 375px; float: left; margin-right: 12px;}
+.index-videos-list li:nth-child(3n),.index-videos-list li.last{margin-right: 0;}
+.index-videos-list .video{width:375px; height: 180px;}
+.index-videos-list .video > img{width: 100%; height: 100%;}
+.index-videos-list .video .video-tip,.index-videos-list .video .video-tip-mask{height: 100%; width: 100%;}
+.index-videos-list .video .video-tip .my-icon-play{margin-top: 60px;}
+.index-videos-list .list-title{height: 54px; line-height: 54px; font-size: 16px; color: #222; padding-left: 60px; background: url(../images/index/video_list_tit.png) 22px center no-repeat  #dab05e;}
+.section-bg{background:#f2f2f2;}
+.index-taiji{}
+.taiji-intro li{float: left; background: #fff; width: 375px; margin-right: 12px; height: 150px; text-align: center;}
+.taiji-intro li:nth-child(3n), .taiji-intro li.last{margin-right: 0;}
+.taiji-intro li h3{font-size: 24px; color: #df835c; padding-top: 30px; padding-bottom: 5px;}
+.taiji-intro li p{font-size: 12px; color: #6b6b6b;}
+.taiji-intro li .btn{height: 26px; line-height: 26px; width: 124px; border: 1px solid #f29b76; color: #f29b76; text-align: center; display: block; margin: 15px auto 0; font-size: 16px;}
+.taiji-list-item{margin-top: 40px; background: #fff; height: 318px; overflow: hidden;}
+.taiji-list-item .taiji-list-left{width: 230px; background: url(../images/index/taiji_list_left1.jpg) no-repeat; height: 318px; color: #fff; text-align: center;}
+.taiji-list-item .taiji-list-left h3{font-size: 36px; line-height: 1; padding: 40px 0 20px;}
+.taiji-list-item .taiji-list-left p{font-size: 16px; color: #fff;}
+.taiji-list-item .taiji-list-left .btn{height: 28px; line-height: 28px; width: 142px; display: block; margin: 0 auto; background: #fff; color: #f29b76; font-size: 16px; margin-top: 140px;}
+.taiji-list-item .taiji-list-right{width: 920px;}
+.taiji-list-item .taiji-tab{width: 100%; text-align: center; }
+.taiji-list-item .taiji-tab th{border-bottom: 2px solid #f9a683; line-height: 50px; font-weight: normal;font-size: 16px; color:#5c5c5c;}
+.taiji-list-item .taiji-tab .f18{font-size: 18px;}
+.taiji-list-item .taiji-tab .f16{font-size: 16px;}
+.taiji-list-item .taiji-tab .btn{height: 26px; line-height: 26px; width: 124px; border: 1px solid #f29b76; color: #f29b76; text-align: center; display: block; font-size: 16px;}
+.taiji-list-item .taiji-tab td{line-height: 60px; font-size: 12px; color: #737373;}
+.taiji-list-item .taiji-tab .first td{padding-top: 10px;}
+.taiji-list-item-stock .taiji-list-left{background-image: url(../images/index/taiji_list_left2.jpg);}
+.taiji-list-item-stock .taiji-list-left .btn{color: #25cdcb;}
+.taiji-list-item-stock .taiji-tab th{border-color: #25cdcb;}
+.taiji-list-item-part .taiji-list-left{background-image: url(../images/index/taiji_list_left3.jpg);}
+.taiji-list-item-part .taiji-list-left .btn{color: #5951b9;}
+.taiji-list-item-part .taiji-tab th{border-color: #9688f2; color: #9688f2;}
+.honor-title{ font-size: 24px; color: #c89b48; font-weight: bold; padding-bottom: 30px;}
+.honor > img{width: 100%;}
+.partner{padding-top: 30px;}
+.partner-title{font-size: 24px; color: #c89b48; font-weight: bold; padding-bottom: 25px;}
+.partner-tab{width: 100%; border: 1px solid #DCDCDC;}
+.partner-tab td{border: 1px solid #dcdcdc; line-height: 118px; height: 118px; text-align: center;}

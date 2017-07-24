@@ -1,0 +1,39 @@
+.soft-taiji-banner{background: url(../images/soft_taiji/soft_taiji_banner.jpg) center no-repeat; height: 587px; width: 100%;}
+.taiji-des-title{background: url(../images/soft_taiji/taiji_des_title.png) no-repeat; height: 68px; line-height: 68px; width: 612px; color: #fff; font-size: 42px; font-weight: bold; padding-left: 130px;}
+.taiji-des-main{padding-left: 75px; width: 660px; margin-top: 30px;}
+.taiji-des-main p{font-size: 18px; line-height: 30px;}
+.taiji-des-main h3{font-size: 24px; font-weight: bold; margin-top: 10px;}
+.soft-taiji-des{position: relative;}
+.soft-taiji-des .taiji-des-right{position: absolute; right: -40px; top:40px;}
+.soft-taiji-core{margin-top: 85px; position: relative;}
+.taiji-core-title{background: url(../images/soft_taiji/taiji_core_title.png) no-repeat; height: 68px; line-height: 68px; width: 452px; color: #fff; font-size: 42px; font-weight: bold; padding-left: 130px;}
+.soft-taiji-core .taiji-core-tips{color: #444c54; position: absolute; left: 600px; height: 50px; line-height: 50px; top:15px; font-size: 32px; font-weight: normal; border-bottom: 1px solid #444c54;}
+.soft-taiji-core .taiji-core-des{font-size:18px; color: #957d56; margin: 50px auto 30px; width: 888px;}
+.soft-taiji-core .taiji-core-data{position: relative;}
+.soft-taiji-core .taiji-core-datatips{margin-left: 100px; padding-left: 30px; background: url(../images/soft_taiji/taiji_core_imgtips.png) 0 5px no-repeat; }
+.soft-taiji-core .taiji-core-datatips p{font-size: 18px; line-height: 30px; color: #957d56;}
+.section-bgblack{background: #444c54;}
+.taiji-advant-list li{background: url(../images/soft_taiji/taiji_advant_bg.png) no-repeat; width:278px; height: 389px; padding: 0 30px; float: left; overflow: hidden;}
+.taiji-advant-list li .tit{padding-top: 60px; border-bottom: 2px solid #d3b686; padding-bottom: 10px; text-align: right;}
+.taiji-advant-list li .info{margin-top: 10px;}
+.taiji-advant-list li .info p{font-size: 17px; color: #D3B686; line-height: 32px; text-indent: 2em;}
+.taiji-advant-list li.mid{margin: 0 68px;}
+.taiji-advant-data{background: url(../images/soft_taiji/taiji_advant_data.png) 210px bottom no-repeat; padding-top: 50px; height: 300px; margin-top: 20px;}
+.taiji-advant-title{background: url(../images/soft_taiji/taiji_advant_title.png) no-repeat; height: 68px; line-height: 68px; width: 352px; color: #444c54; font-size: 42px; font-weight: bold; padding-left: 130px;}
+.taiji-advant-datalist{float: right; text-align: left;}
+.taiji-advant-datalist p{font-size: 18px; line-height: 33px; color: #d3b686; background: url(../images/soft_taiji/datalist_bg.png) 0 10px no-repeat; padding-left: 20px;}
+.soft-taiji-team{position: relative;}
+.taiji-team-title{background: url(../images/soft_taiji/taiji_core_title.png) no-repeat; height: 68px; line-height: 68px; width: 452px; color: #fff; font-size: 42px; font-weight: bold; padding-left: 130px;}
+.soft-taiji-team .taiji-team-tips{color: #444c54; position: absolute; left: 600px; height: 50px; line-height: 50px; top:15px; font-size: 32px; font-weight: normal; border-bottom: 1px solid #444c54;}
+.taiji-team-list li{margin-top: 55px;}
+.taiji-team-list .user-info{width: 225px; padding: 0 60px 0 70px; border-right: 1px solid #957d56; height: 120px;}
+.taiji-team-list .user-info .user-name{font-size: 36px; font-weight: bold; }
+.taiji-team-list .user-info .lines{height: 3px; background: #957d56; width: 100%; position: relative; margin: 5px 0;}
+.taiji-team-list .user-info .lines span{width: 100px; display: block; position: absolute; top:0; left: 0; height: 3px; background: #444c54;}
+.taiji-team-list .user-info .user-posit{font-size: 24px;}
+.taiji-team-list .user-intro{width: 705px; margin-right: 35px; }
+.taiji-team-list .user-intro p{font-size: 18px; line-height: 30px; text-indent: 2em;}
+.soft-taiji-exam{text-align: center;}
+.taiji-exam-title{color: #d3b686; font-size: 48px; font-weight: bold;}
+.taiji-exam-subtitle{color: #ededed; font-size: 24px;}
+.taiji-exam-imgs{margin-top: 50px;}

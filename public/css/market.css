@@ -1,0 +1,87 @@
+.market-banner{background: url(../images/market/market_banner.png) center no-repeat; width: 100%; height: 350px;}
+.market-lw{width: 766px;}
+.market-rw{width: 378px; background: #fff;}
+.market-news-tit{background: url(../images/market/market-news-tit.jpg) no-repeat; background-size: cover; height: 58px; line-height: 58px; padding: 0 15px; color: #fff; font-size: 22px;}
+.market-news-tit .more{color: #fff; font-size: 14px;}
+.market-news li{padding: 10px 0; border-bottom: 1px solid #e5e5e5;}
+.market-video-tit{background: #0161ab; text-align: center; color: #fff; font-size: 22px; height: 58px; line-height: 58px;}
+.market-video-list li{padding: 15px 30px 0;}
+.market-video-list .video,.market-video-list .video img,.market-video-list .video .video-tip-mask,.market-video-list .video .video-tip{height: 78px; width: 144px;}
+.market-video-list .video .video-tip h2{font-size: 16px; margin: 10px 0;}
+.market-video-list .video .video-tip .my-icon-play{height: 24px; width: 24px;}
+.market-video-list .fr{font-size: 16px; line-height: 24px; height: 48px; padding: 15px 0;}
+.market-video-m-tit{background: url(../images/market/market-news-tit2.jpg) no-repeat; background-size: cover; height: 58px; line-height: 58px; padding: 0 15px; color: #fff; font-size: 22px; margin-bottom: 15px;}
+.market-video-m-tit .more{color: #fff; font-size: 14px;}
+.market-video-m .video,.market-video-m .video img,.market-video-m .video .video-tip-mask,.market-video-m .video .video-tip{height: 540px; width: 766px;}
+.market-video-m .video .video-tip h2{margin-top: 200px;}
+.market-video-list1 li{border-bottom: 1px solid #e5e5e5; padding: 5px 0; margin-top: 20px; font-size:18px; color: #888;}
+.section-market-view{padding: 0; background: url(../images/wp3.jpg) no-repeat; background-size: cover;}
+.market-view{padding: 7px 0; width: 1150px;}
+.video-view-count{font-size: 14px; color: #828080; height: 40px; line-height: 40px; padding: 0 20px; border-bottom: 1px solid #e0e0e0;}
+.video-view-count .contact .qq{background: url(../images/contact_qq.png) no-repeat; height: 23px; width: 61px; margin-top: 8px; display: block; float: left;}
+.video-view-count .contact .qq + .qq{margin-left: 10px;}
+.market-view-talks{height: 596px; overflow-y: visible; padding: 20px 5px 20px 15px; overflow-x: hidden;}
+.market-view-talks li{width: 100%; zoom: 1;}
+.market-view-talks li + li{margin-top: 20px;}
+.market-view-talks li:after{content: ""; display:block;clear:both;font-size:0;line-height:0;visibility:hidden}
+.market-view-talks li .user-img{height: 35px; width: 35px; overflow: hidden; float: left; margin-right: 10px;}
+.market-view-talks li .user-img img{vertical-align: middle; max-height: 35px; max-width: 35px; display: block;}
+.market-view-talks li .user-talks{float: left; width: 300px;}
+.market-view-talks li .user{margin-bottom: 5px;}
+.market-view-talks li .user .date{font-size: 12px; color: #999; margin-left: 10px;}
+.market-view-talks li .talks{color: #000; position: relative; background: #e9e9e9; padding: 5px 15px; border-radius: 10px; display: inline-block;}
+.market-view-talks li .talks:before{content: ''; background: url(../images/talks_before.png) no-repeat; position: absolute; height: 10px; width: 8px; left: -8px; top: 7px;}
+.market-view-submit{border-top: 2px solid #e0e0e0; padding: 13px 8px; height: 97px;}
+.market-view-submit .inp{height: 51px; border:1px solid #b3b3b3; background: none; width: 258px; padding: 5px 15px;}
+.market-view-submit .my-btn{float: right; height: 63px; width: 63px; border-radius: 5px; background: #bc9349; color: #fff;}
+.market-view-submit .action{ height: 18px; padding-bottom: 10px;}
+.market-view-submit .action .bq{background: url(../images/bq.png) center no-repeat; height: 18px; width: 20px; display: inline-block; *display: inline; zoom: 1; position: relative;}
+/*school-course*/
+.market-news{padding: 40px 0 60px;}
+.market-news-tit{height: 58px; line-height: 58px; background: url(../images/market/market_news_tit.jpg) no-repeat; padding: 0 21px; font-size: 30px; color: #fff; font-weight: bold;}
+.market-news-con{border:3px solid #e5e5e5; border-top:0; padding: 30px 18px;}
+.market-news-list{width: 294px;}
+.market-news-list li{height: 44px; padding: 13px 0; width: 100%; line-height: 22px; margin-bottom: 2px; background: #f8f8f8; text-align: center; border: 0;}
+.market-news-list li:hover,.market-news-list li.now{background: #0161ab; color: #fff;}
+.market-news-list li:hover a,.market-news-list li.now a{color: #fff;}
+.market-news-list li:last-child{margin-bottom: 0;}
+.market-news-list li.all{line-height: 44px;}
+.market-news-intro{width: 780px;}
+.market-news-intro .tit{font-size: 24px; padding: 20px 0; text-align: center;}
+/*market-ad*/
+.market-ad{margin-top: 7px;}
+.market-ad-nav{height: 37px; line-height: 37px;}
+.market-ad-nav li{background: #4e4e4e; float: left; height: 37px; width: 150px; color: #fff; text-align: center; font-size: 16px; cursor: pointer;}
+.market-ad-nav li + li{margin-left: 4px;}
+.market-ad-nav li:hover,.market-ad-nav li.now{background: #a19a9a;}
+.market-ad-con{background: #a19a9a; width: 100%; height: 218px;}
+.market-ad-img{width: 100%; height: 213px; padding-top: 5px; overflow: hidden; position: relative;}
+.market-ad-img .bd,.market-ad-img .bd li{width: 100%; height: 213px;}
+.market-ad-img .hd{position: absolute; bottom: 15px; left: 0;  width:100%; text-align: center;}
+.market-ad-img .hd li{height: 8px; width: 8px; display: inline-block; *display: inline; zoom: 1; background: rgba(255,255,255,.5); border-radius: 100%; overflow: hidden; text-indent: 10px;}
+.market-ad-img .hd li + li{margin-left: 8px;}
+.market-ad-img .hd li.on{background: #fff;}
+.market-ad-img .prev,.market-ad-img .next{position: absolute; background: url(../images/arrow_left.png) center no-repeat; height: 23px; width: 23px; left: 10px; top:50%;}
+.market-ad-img .next{background-image: url(../images/arrow_right.png); left: auto; right: 10px;}
+.market-ad-text{padding: 10px; overflow-y: visible; overflow-x: hidden; height: 198px;}
+.market-ad-text p{color: #333;}
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+.scrollbar::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.scrollbar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+/*定义滑块，内阴影及圆角*/
+.scrollbar::-webkit-scrollbar-thumb{
+    height: 20px;
+    background: url(../images/scroll_bar.png) center no-repeat;
+}
+textarea{outline: none;}
+.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;} 
+.qqFace table td{padding:0px;} 
+.qqFace table td img{cursor:pointer;border:1px #fff solid;} 
+.qqFace table td img:hover{border:1px #0066cc solid;} 

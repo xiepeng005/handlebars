@@ -1,0 +1,19 @@
+.secur-banner{height: 350px; width: 100%; background: url(../images/about/secur_banner.jpg) center no-repeat;}
+.about-section h3{text-align: center; font-size: 24px; font-weight: bold;}
+.about-section img{text-align: center; margin: 30px auto; display: block; max-width: 100%;}
+.about-section p{font-size: 16px; line-height: 2em; margin-bottom: 10px;}
+.about-section h4{font-size: 18px; font-weight: bold; text-align: center; margin-top: 20px;}
+/*aboutus*/
+.aboutus-banner{background: url(../images/about/aboutus_banner.jpg) center no-repeat; height: 400px;}
+.company-culture p{font-size: 14px; margin-bottom: 0; line-height: 1.8em; padding-left: 24px;}
+.company-culture p.end{padding: 0; margin-top: 5px;}
+.company-culture h5{font-size: 16px; font-weight: bold; margin: 10px 0;}
+.company-culture h6{font-weight: bold; margin: 5px 0;}
+.aboutus-honor h5{margin: 15px 0; font-size: 16px; font-weight: bold;}
+.aboutus-honor a{white-space: nowrap; width: 24.5%; display: inline-block; line-height: 2em;}
+.contact{margin-top: 30px;}
+.contact .ewm{width: 20%;}
+.contact .ewm img{margin: 0 auto;}
+.contact .info{width: 40%;}
+.contact .info strong{font-size: 24px; margin-bottom: 10px; display: block; padding-left: 20px;}
+.contact .info p{margin-bottom: 0; padding-left: 20px;}

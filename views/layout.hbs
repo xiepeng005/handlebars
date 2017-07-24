@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <meta name="keyword" content="{{keyword}}"/>
+    <meta name="description" content="{{description}}"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    {{#each cssList}}
+        <link rel='stylesheet' href="{{this}}" />
+    {{/each}}
+    <!--[if lt IE 9]>
+        <script src="/js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+{{> header}}
+<div class="container">
+    {{{body}}}
+</div>
+{{> footer}}
+{{#each jsList}}
+    <script src="{{this}}"></script>
+{{/each}}
+</body>
+</html>

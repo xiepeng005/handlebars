@@ -1,0 +1,74 @@
+.school-banner{background: url(../images/school/school_banner.png) center no-repeat; width: 100%; height: 350px;}
+.school-enlist-left{width: 410px; height: 368px; background: url(../images/school/school_bg.png) no-repeat; color: #fff;}
+.school-enlist-left h3{font-size: 24px; font-weight: bold; padding: 30px 25px 5px; line-height: 36px;}
+.school-enlist-left .line{height: 1px; width: 385px; background: #fff; display: block;}
+.school-enlist-left p{text-indent: 2em; line-height: 28px; font-size: 16px; padding: 15px 25px;}
+.school-enlist-left .more{text-align: right; display: block; padding-right: 10px;}
+.school-enlist-left img{margin: 0 auto; display: block; margin-top: 10px;}
+.school-enlist-right{width: 676px; height: 368px;}
+.school-enlist-form-tit{background: #fa5546; padding: 0 25px; height: 60px; line-height: 60px; font-size: 24px; font-weight: bold; color: #fff;}
+.school-enlist-form-tab{border:2px solid #dcdcdc; height: 306px;}
+.school-enlist-form-tab table{width: 100%; margin-top: 50px;}
+.school-enlist-form-tab table th,.school-enlist-form-tab table td{line-height: 56px; font-size: 16px;}
+.school-enlist-form-tab table th{width: 80px; text-align: right; font-weight: normal;}
+.school-enlist-form-tab .my-btn{width: 144px; margin-top: 20px;}
+.school-form-inp{width: 222px; border: 0; padding: 0; border-bottom: 1px solid #d2d2d2;} 
+.school-video-h2{color: #161a47; font-size: 24px; font-weight: bold; text-align: center; margin-top: 10px;}
+.school-video-list{width: 435px;}
+.school-video-list h3{height: 60px; line-height: 60px; background: #161a47; padding: 0 15px; font-size: 20px; color: #fff;}
+.school-video-list h3 .more{font-size: 16px; color: #fff;}
+.school-video-list li{padding: 20px 0 15px; border-bottom: 1px solid #d9ecfc;}
+.school-video-list li:last-child{border-bottom: 0;}
+.school-video-list li .tit{font-size: 16px; color: #3d9fe1; font-weight: bold;}
+.school-teacher-list li{float: left; width: 220px; margin-right: 90px;}
+.school-teacher-list li.last{margin-right: 0;}
+.school-teacher-list li .teacher-img{width: 220px; height: 122px; overflow: hidden; display: table-cell; vertical-align: middle; text-align: center;}
+.school-teacher-list li .teacher-img img{max-width: 182px; max-height: 122px;}
+.school-teacher-list li h3{margin: 20px 0 0; font-size: 18px; text-align: center; font-weight: bold;}
+.school-teacher-list li p{line-height: 24px; color: #888888;}
+.school-title{background: url(../images/school/school_title.png) no-repeat; width: 418px; text-align: center; height: 90px; margin: 0 auto;}
+.school-title .en{font-size: 36px; padding-top: 5px; height: 54px; line-height: 54px;}
+.school-title .ch{font-size: 24px; color: #fa5546; height: 36px; line-height: 36px;}
+.section-school-advantage{position: relative; z-index: 2;}
+.school-advantage-list{padding-left: 450px; background: url(../images/school/school_advantage_bg.jpg) 20px center no-repeat; margin-top: 45px;}
+.school-advantage-list h3{font-size: 18px; line-height: 36px; margin: 5px 0;}
+.school-advantage-list p{line-height: 24px; color: #888; text-indent: 2em;}
+.section-school-culture{background: url(../images/school/school_culture_bg.jpg) center no-repeat; background-size: cover;}
+.school-culture-list{margin-top: 50px;}
+.school-culture-list p{line-height: 28px; color: #888; text-indent: 2em; margin-top: 20px;}
+.school-culture-list p strong{color: #333;}
+/*enlist*/
+.enlist-certify{}
+.enlist-certify-left,.enlist-certify-right{width: 50%;}
+.enlist-certify-left{border-right: 2px solid #eee;}
+.enlist-certify-right{color: #fa5546; font-size: 30px; font-weight: bold;}
+.section-certify-detail{background: url(../images/school/certify_bg.jpg) no-repeat; background-size: cover;}
+.enlist-certify-detail .tit{text-align: center; font-size: 18px; color: #fa5546; font-weight: bold; margin-bottom: 30px;}
+.enlist-certify-detail .tit .en{display: block; font-size: 20px; color: #010000; font-weight: normal; padding-bottom: 10px;}
+.enlist-certify-detail p{line-height: 54px; font-size: 16px; color: #888; text-indent: 2em;}
+.enlist-certify-detail .mt{margin-top: 120px;}
+.enlist-fees .fees{font-size: 20px; font-weight: bold;color: #666;}
+.enlist-fees .fees strong{font-size: 30px;}
+.enlist-fees .promise{font-size: 30px; text-align: center; font-weight: bold; color: #666; padding: 30px 0 0;}
+.enlist-fees .flows{width: 100%; margin-top: 50px;}
+.enlist-fees .flows-left,.enlist-fees .flows-right{width: 50%;}
+.enlist-fees .flows-left{border-right: 2px solid #eee; color: #fa5546; font-size: 30px; font-weight: bold;}
+.enlist-fees .flows-right{font-size: 24px; line-height: 55px; text-align: left; padding-left: 50px; color: #666;}
+/*school-course*/
+.school-course{padding: 40px 0 60px;}
+.school-course-tit{ height: 60px; line-height: 60px; background: #FA5546; padding: 0 21px; font-size: 30px; color: #fff; font-weight: bold;}
+.school-course-con{border:3px solid #e5e5e5; border-top:0; padding: 30px 18px;}
+.school-course-list{width: 290px; border: 2px solid #e5e5e5;}
+.school-course-list li{height: 44px; padding: 13px 0; width: 100%; line-height: 22px; margin-bottom: 2px; background: #f8f8f8; text-align: center;}
+.school-course-list li:hover,.school-course-list li.now{background: #fa5546; color: #fff;}
+.school-course-list li:hover a,.school-course-list li.now a{color: #fff;}
+.school-course-list li:last-child{margin-bottom: 0;}
+.school-course-list li.all{line-height: 44px;}
+.school-course-intro{width: 780px;}
+.school-course-intro .tit{font-size: 24px; padding: 20px 0;}
+/*school-teacher*/
+.school-teacher-list-m{width: 290px; border: 2px solid #e5e5e5;}
+.school-teacher-list-m li{ padding: 35px 0; width: 100%; background: #f8f8f8; text-align: center;}
+.school-teacher-list-m li .teacher-img{height: 135px; width: 290px; margin: 0 auto; overflow: hidden; display: table-cell;}
+.school-teacher-list-m li .teacher-img img{max-height: 135px; max-width: 200px;}
+.school-teacher-list-m li a{font-size: 16px; margin-top: 15px;}
